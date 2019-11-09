@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
-import Header from './components/header/header-slide'
-import { AboutTitel , AboutInfo} from './components/about/'
+import {
+  BrowserRouter, Route, Switch, Redirect,
+} from 'react-router-dom';
 import './App.css';
-import Learn from './components/learn'
+
+import Home from './components/homWeb/index'
+import HomeAdmin from './components/adminPanel/index'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-       <Header />
-       <AboutTitel titel='ssssssssssss' info='wwwwwwwwwwwwwwww'/>
-       <AboutInfo />
-       <Learn />
+
+                <BrowserRouter>
+                  
+                    {/* {window.location.pathname.includes ('/admin') &&    <NavBar /> } */}
+                  
+                    <Switch>
+                      <Route path="/admin" component={ HomeAdmin } />
+                      <Route excat path="/" component={Home} /> 
+                    </Switch>
+         
+                </BrowserRouter>
       </div>
     );
   }

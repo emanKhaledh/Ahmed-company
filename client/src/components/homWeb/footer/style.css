@@ -1,0 +1,23 @@
+.footer{
+  background: rgb(150, 126, 95);
+  color: #f1f1f1;
+  width: 100%;
+  padding-top: 20px;
+
+  max-height: 200px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 9999;
+
+
+
+}
+
+.footer >div{
+  color: #f1f1f1;
+  text-align: right;
+  font-size: 20px;
+  margin-right: 90px;
+  margin-top: 25px;
+  width: 40%;
+}

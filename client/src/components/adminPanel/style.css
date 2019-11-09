@@ -1,0 +1,32 @@
+.navbar-list{
+
+        height: 100%;
+    width: 241px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #272524;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+.navbar-item {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+text-align:right
+}
+
+.navbar-item.chosen,
+.navbar-item:hover {
+  border-bottom: 1px solid #960b0b;
+  color: #960b0b;
+}
+.main-admin{
+  margin-right: 250px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}

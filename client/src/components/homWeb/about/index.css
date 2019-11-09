@@ -1,0 +1,145 @@
+.aboutTitel--style{
+  border-right: 1px solid #454547;
+  margin-right: 40px;
+  margin-top: 25px;
+  padding-top: .5px;
+  padding-bottom: .5px;
+  padding-inline-start:2%;
+  margin-bottom: 25px;
+ }
+
+
+
+.aboutTitel--style h2 {
+
+  color: #967e5f;
+
+  line-height: .5;
+  text-align: right;
+ 
+}
+
+.aboutTitel--style p {
+    text-align: right;
+   
+    line-height: 1.5;
+    color: #454547;
+
+    padding-inline-end: 50px;
+}
+
+.aboutInfo--style{
+  display: flex;
+  flex-wrap: wrap;
+  -moz-box-shadow:  0 0 10px 2px #e9e3e3;
+  -webkit-box-shadow: 0 0 10px 2px #e9e3e3;
+  box-shadow:  0 0 10px 2px #e9e3e3;
+  height: 400px;
+  
+ 
+}
+.infoImage{
+ background-image: url('./persone.jpg');
+ background-repeat: no-repeat;
+ background-size: auto;
+  
+  width: 40%;
+margin: 0px 10px;
+ 
+}
+
+
+.infoAsx {
+  background-color: #f1f1f1;
+  width: 50%;
+
+
+  text-align: right;
+  line-height: 75px;
+ 
+  display:inline-block;
+}
+
+.infoAsx  button {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 20px;
+
+ 
+  
+}
+
+
+.flex-container-asx {
+  display: flex;
+
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+.flex-container-asx >div{
+  width: 50%;
+}
+.flex-container-asx-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 40px
+}
+.flex-container-asx-button > button {
+  background-color: #967e5f;
+  margin: 5px -9px;
+  width: 100%;
+  text-align: right;
+  line-height: 30px;
+  font-size: 22px;
+  border: none;
+  padding: 10px;
+  color: #fdfdff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+.asx-p {
+  /* line-height: 35px; */
+  text-align: center;
+  /* padding: 5px 20px; */
+
+  color: #444141;
+}
+
+
+.static-img {
+  position: relative;
+  width:100%;
+  margin: 0 auto;
+  max-height: 200px;
+  background-position: 50% 50%;
+}
+
+.static-img img {vertical-align: middle;
+}
+
+.static-img .content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(183, 148, 107, 0.62);
+  color: #f1f1f1;
+  width: 100%;
+ 
+  top: 0;
+  max-height: 200px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.content >div{
+  padding:1px 20px;
+
+  /* width: 100px; */
+  margin: 10px;
+  text-align: center;
+ 
+}

@@ -132,25 +132,20 @@ class Asx extends Component {
         
          render(){
 
-      
+      const {ask} = this.props
            
-           return(
-            <div> 
-            {this.props.ask.map((x) => {
-             return(
-            <button onClick={()=>this.toggleVisibility(x.a)}>{x.q} </button> 
+           return( <div className="flex-container-asx ">
+           <div className="flex-container-asx-button">
+            {ask.map((x) => (
 
-             )}
-            )}
-            
-              <div className="asx-style">
-              <p>{this.state.answer}</p>
-              </div>
-           
-
-            
-       
-        
+            <button onClick={()=>this.toggleVisibility(x.a)}>
+            {x.q} </button> 
+            )
+          )}
+          </div>
+          <div className="asx-p" >
+            <p>{this.state.answer}</p>
+            </div>
         </div>
            )
          }

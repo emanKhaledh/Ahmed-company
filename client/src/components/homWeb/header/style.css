@@ -1,0 +1,63 @@
+
+.containerWeb1 {
+  /* position: relative; */
+  width:100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.containerWeb1 img {vertical-align: middle;
+max-height: 420px ;
+height: 420px;}
+
+.containerWeb1 .content-header {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(196, 175, 138, 0.48);
+  color: #f1f1f1;
+  width: 100%;
+  /* padding-top: 20px; */
+  top: 9%;
+  height: 392px;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #967e5f;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding-right: 50px;
+  z-index: 9999;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.pargrph-style {
+ 
+  text-align: center; 
+
+
+} 
+.pargrph-style p{
+  vertical-align: middle; 
+  padding-top: 5px
+
+}
